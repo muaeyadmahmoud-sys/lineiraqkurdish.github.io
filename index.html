@@ -156,20 +156,41 @@
       line-height:1.9;
     }
     .contact {
-      background:var(--navy);
-      color:#fff;
-      text-align:center;
-      padding:58px 20px;
-    }
-    .contact h2 {
-      margin:0 0 10px;
-      font-size:38px;
-    }
-    .contact p {
-      margin:0;
-      color:#dfe7f7;
-      line-height:1.9;
-    }
+  background:
+    radial-gradient(circle at 15% 25%, rgba(180, 25, 25, .28), transparent 22%),
+    linear-gradient(135deg, #050505 0%, #141414 48%, #3a2a0f 72%, #050505 100%);
+  color:#ffffff;
+  text-align:center;
+  padding:58px 20px;
+  border-top:4px solid #d9a31b;
+  border-bottom:4px solid #d9a31b;
+}
+
+.contact h2 {
+  margin:0 0 12px;
+  font-size:34px;
+  color:#ffffff;
+}
+
+.contact p {
+  color:#f7efd9;
+  line-height:1.9;
+}
+
+.contact a {
+  display:inline-block;
+  min-width:240px;
+  margin:7px 0;
+  padding:12px 24px;
+  background:linear-gradient(135deg, #9b7016, #e2b83e);
+  color:#111111;
+  text-decoration:none;
+  font-size:22px;
+  font-weight:900;
+  border-radius:999px;
+  direction:ltr;
+  box-shadow:0 8px 20px rgba(0,0,0,.28);
+}
     footer {
       background:#04112d;
       color:#bac7df;
